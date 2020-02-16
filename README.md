@@ -24,3 +24,4 @@ For more details about Giphy API, please refer to https://developers.giphy.com/
 |~`API Object Name`~|~string~|~Dynamic Search Term based on Object Name~|
 |~`API Field Name`~|~string~|~Dynamic Search Term based on Field Name~|
 |`Giphy Rating`|picklist (G, PG, PG-13, R)|Giphy Content Rating from all ages (G) to strong language (R)|
+|`Giphy Language`|picklist (en, de, es, fr, it)|Default country for regional content|

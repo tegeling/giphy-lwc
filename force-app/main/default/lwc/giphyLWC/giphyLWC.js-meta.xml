@@ -18,6 +18,7 @@
             <property name="dynamicObject" label="API Object Name" description="Dynamic Search Term based on Object Name" type="String" placeholder="Type your API Object Name here..." />
             <property name="dynamicField" label="API Field Name" description="Dynamic Search Term based on Field Name" type="String" placeholder="Type your API Field Name here..." />
             <property name="giphyRating" label="Giphy Rating" description="Giphy Content Rating from all ages (G) to strong language (R)" type="String" datasource="G, PG, PG-13, R" default="R" />
+            <property name="giphyLang" label="Giphy Language" description="Default country for regional content" type="String" datasource="en, de, es, fr, it" default="en" />
         </targetConfig>
     </targetConfigs>
 </LightningComponentBundle>

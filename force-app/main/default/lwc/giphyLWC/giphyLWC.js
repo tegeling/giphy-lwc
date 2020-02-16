@@ -8,6 +8,7 @@ export default class GiphyLWC extends LightningElement {
     @api giphyType;
     @api staticURL;
     @api giphyRating;
+    @api giphyLang;
     @api giphyAPIKey;
     @api staticSearchTerm;
     @api dynamicObject;
@@ -19,7 +20,7 @@ export default class GiphyLWC extends LightningElement {
 
     connectedCallback() {
         // check the Giphy source type (static URL, static search term, dynamic search term)
-        this.query = QUERY_URL + 'api_key=' + this.giphyAPIKey + '&limit=1&offset=0&rating=' + this.giphyRating + '&lang=en';
+        this.query = QUERY_URL + 'api_key=' + this.giphyAPIKey + '&limit=1&offset=0&rating=' + this.giphyRating + '&lang=' + this.giphyLang;
         if (this.giphyType === 'Static Search Term') {
             this.query += '&q=' + this.staticSearchTerm;
             // The Fetch API is currently not polyfilled for usage in IE11.
