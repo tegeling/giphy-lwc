@@ -35,7 +35,7 @@ export default class GiphyLWC extends LightningElement {
                 })
                 .then(jsonResponse => {
                     jsonResponse.data
-                    .map(gif => gif.images.fixed_height.url)
+                    .map(gif => gif.images.downsized_large.url)
                     .forEach(url => {
                         this.giphyContentUrl = url;
                         })
