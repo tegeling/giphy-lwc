@@ -1,7 +1,9 @@
 <template>
     <lightning-card title="Powered By GIPHY">
         <div class="slds-m-around_medium">
-            <img src={giphyContentUrl} alt="Giphy content" />
+            <template if:true={giphyContentUrl}>
+                <img src={giphyContentUrl} alt="Giphy content" />
+            </template>
         </div>
     </lightning-card>    
 </template>

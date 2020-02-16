@@ -2,9 +2,22 @@
 <LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
     <apiVersion>47.0</apiVersion>
     <isExposed>true</isExposed>
+    <description>Show Giphy content based on dynamic criteria.</description>
+    <masterLabel>Giphy Component</masterLabel>
     <targets>
         <target>lightning__AppPage</target>
         <target>lightning__RecordPage</target>
         <target>lightning__HomePage</target>
     </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__AppPage, lightning__HomePage, lightning__RecordPage">
+            <property name="giphyAPIKey" label="Giphy API Key" description="Enter your Giphy API Key" type="String" placeholder="Type your API Key here..." required="true" />
+            <property name="giphyType" label="Giphy Source Type" description="Static or Dynamic Giphy Source" type="String" datasource="Static URL, Static Search Term, Dynamic Search Term" default="Static URL" />
+            <property name="staticURL" label="Static Giphy URL" description="Static Giphy content URL" type="String" placeholder="Type your URL here..." />
+            <property name="staticSearchTerm" label="Static Search Term" description="Giphy Search Term" type="String" placeholder="Type your search term here..." />
+            <property name="dynamicObject" label="API Object Name" description="Dynamic Search Term based on Object Name" type="String" placeholder="Type your API Object Name here..." />
+            <property name="dynamicField" label="API Field Name" description="Dynamic Search Term based on Field Name" type="String" placeholder="Type your API Field Name here..." />
+            <property name="giphyRating" label="Giphy Rating" description="Giphy Content Rating from all ages (G) to strong language (R)" type="String" datasource="G, PG, PG-13, R" default="R" />
+        </targetConfig>
+    </targetConfigs>
 </LightningComponentBundle>
