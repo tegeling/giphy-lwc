@@ -9,12 +9,10 @@ For more details about Giphy API, please refer to https://developers.giphy.com/
 ## Setup steps
 1. Deploy this component
 2. Configure your Salesforce org
-
-The base URL `https://api.giphy.com` must be added to the Content Security Policy CSP Trusted Sites in Setup.
+ The base URL `https://api.giphy.com` must be added to the Content Security Policy CSP Trusted Sites in Setup.
 3. Create a Giphy app
-
-First thing to do is to create a [Giphy app] https://developers.giphy.com/dashboard/?create=true
-You need the Giphy API key to configure thie component.
+ First thing to do is to create a [Giphy app](https://developers.giphy.com/dashboard/?create=true)
+ You need the Giphy API key to configure thie component.
 4. Add this component to any Lightning home page, app page or record page and configure the properties.
 
 ## Properties
