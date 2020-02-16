@@ -17,10 +17,10 @@ For more details about Giphy API, please refer to https://developers.giphy.com/
 ## Properties
 |Name|Type|Description|
 |---|---|---|
-|Giphy API Key|string|Enter your Giphy API Key|
-|Giphy Source Type|picklist (Static URL, Static Search Term, Dynamic Search Term)|Static or Dynamic Giphy Source|
-|Static Giphy URL|string|This is the URL path to any Giphy content (like `https://media.giphy.com/media/3oz8xFhzFLuJ1SZo8o/giphy.gif`)|
-|Static Search Term|string|Type in any search terms (like 'put that coffee down')|
-|~API Object Name~|~string~|~Dynamic Search Term based on Object Name~|
-|~API Field Name~|~string~|~Dynamic Search Term based on Field Name~|
-|Giphy Rating|picklist (G, PG, PG-13, R)|Giphy Content Rating from all ages (G) to strong language (R)|
+|`Giphy API Key`|string|Enter your Giphy API Key|
+|`Giphy Source Type`|picklist (Static URL, Static Search Term, Dynamic Search Term)|Static or Dynamic Giphy Source|
+|`Static Giphy URL`|string|This is the URL path to any Giphy content (like `https://media.giphy.com/media/3oz8xFhzFLuJ1SZo8o/giphy.gif`)|
+|`Static Search Term`|string|Type in any search terms (like 'put that coffee down')|
+|~`API Object Name`~|~string~|~Dynamic Search Term based on Object Name~|
+|~`API Field Name`~|~string~|~Dynamic Search Term based on Field Name~|
+|`Giphy Rating`|picklist (G, PG, PG-13, R)|Giphy Content Rating from all ages (G) to strong language (R)|
