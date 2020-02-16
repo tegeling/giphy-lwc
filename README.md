@@ -1,4 +1,4 @@
-## Salesforce Lightning Web Component LWC for dynamic Giphy content
+# Salesforce Lightning Web Component LWC for dynamic Giphy content
 This repository contains a Salesforce LWC to dynamically or statically show animated gifs from Giphy based on various search criteria.
 
 The component can be used on any Lightning home page, app page or record page.
@@ -6,13 +6,13 @@ When used on a record page, the current record can be referenced with the keywor
 
 For more details about Giphy API, please refer to https://developers.giphy.com/
 
-# Setup steps
+## Setup steps
 The base URL https://api.giphy.com must be added to the Content Security Policy CSP Trusted Sites in Setup
 
 First thing to do is to create a Giphy app at https://developers.giphy.com/dashboard/?create=true
 You need the Giphy API key to configure thie component.
 
-# Properties
+## Properties
 Giphy API Key - string
 Enter your Giphy API Key
 
